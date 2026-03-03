@@ -10,17 +10,12 @@
 
   <h2>Install</h2>
   <pre><code>
-    
   - Ubuntu / Debian
 sudo apt install libncurses-dev build-essential
-
   --------------------------
-
   - macOS
 brew install ncurses</code></pre>
-
   --------------------------
-
   <h2>Build</h2>
   <pre><code>git clone https://github.com/your-user/matrix-timer
 cd matrix-timer
