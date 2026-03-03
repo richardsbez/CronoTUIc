@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <div class="page">
 
-  <div class="title">matrix-timer</div>
+  <h1 class="title">matrix-timer</h1>
   <div class="subtitle">terminal countdown timer with matrix visual effects — C17 / ncurses</div>
 
   <h2>Install</h2>
