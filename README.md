@@ -9,10 +9,11 @@
   <div class="subtitle">terminal countdown timer with matrix visual effects — C17 / ncurses</div>
 
   <h2>Install</h2>
-  <pre><code># Ubuntu / Debian
+  <pre><code>
+  # Ubuntu / Debian
 sudo apt install libncurses-dev build-essential
 
-# macOS
+  macOS
 brew install ncurses</code></pre>
 
   <h2>Build</h2>
