@@ -63,22 +63,27 @@ make clean  # remove artifacts</code></pre>
   </ul>
 
   <h2>Project structure</h2>
-  <pre><code>src/
-  main.c            entry point, top-level dispatch
-  state.c           global state and defaults
-  display.c         ncurses init, theme, HUD elements
-  visualizations.c  all visual effect modes
-  screens.c         menus — presets, settings, history…
-  timer.c           timer and stopwatch loops
-  storage.c         persistence, stats, pomodoro flow
-
-include/
-  matrix_timer.h    types, constants, extern declarations
-  display.h
-  visualizations.h
-  screens.h
-  timer.h
-  storage.h</code></pre>
+  <pre><code>
+    
+matrix_timer/
+├── Makefile
+├── README.md
+├── include/
+│   ├── matrix_timer.h      # Core types, constants, enums, extern declarations
+│   ├── display.h           # ncurses init, theme, HUD elements
+│   ├── visualizations.h    # All visual effect modes
+│   ├── screens.h           # TUI menus and screens
+│   ├── timer.h             # Timer and stopwatch loops
+│   └── storage.h           # File persistence, stats, pomodoro logic
+└── src/
+    ├── main.c              # Entry point and top-level navigation loop
+    ├── state.c             # All global state definitions and default values
+    ├── display.c           # ncurses/theme setup, borders, HUD rendering
+    ├── visualizations.c    # Rain, Vortex, Pulse, Wave, Static, 3D, Fractal, Firefly
+    ├── screens.c           # Main menu, presets, settings, history, stats, tasks, notes
+    ├── timer.c             # Core timer loop, stopwatch loop, UI overlay
+    └── storage.c           # Save/load state, tasks, notes, stats, pomodoro sequencing
+  </code></pre>
 
   <hr>
 
