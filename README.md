@@ -10,14 +10,13 @@
 
   <h2>Install</h2>
   <pre><code>
-  --------------------------
     
-  Ubuntu / Debian
+  - Ubuntu / Debian
 sudo apt install libncurses-dev build-essential
 
   --------------------------
 
-  macOS
+  - macOS
 brew install ncurses</code></pre>
 
   --------------------------
